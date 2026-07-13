@@ -46,3 +46,7 @@ nc -lvp 4444
 On the Fedora machine, we use Netcat to initiate a connection to Kali's IP address (192.168.1.4) on the specified port (4444).
 (Screenshot showing Fedora connecting to the Kali Linux listener)
 <img width="1920" height="922" alt="VirtualBox_Fedora_13_07_2026_15_50_05" src="https://github.com/user-attachments/assets/643a040c-3863-4150-805a-a72716f032ff" />
+
+💬 Phase 3: Connection Verification & Chat Interface
+Once the connection is established, the verbose output on Kali Linux will read: connect to [192.168.1.4] from (UNKNOWN) [192.168.1.9].
+Standard input (stdin) is now tied to the network socket on both ends. Anything typed into the terminal on one machine and submitted with the Enter key will be transmitted and displayed on the other machine's terminal. As demonstrated in the screenshots, a simple greeting message successfully passes between the two hosts, confirming a working bidirectional connection.
