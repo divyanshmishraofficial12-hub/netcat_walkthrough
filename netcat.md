@@ -33,5 +33,11 @@ With both IP addresses identified, we use Netcat to open a listening port on the
 On Kali Linux, we instruct Netcat to listen for incoming connections on port `4444`. 
 
 **Command:**
-```bash
+bash
 nc -lvp 4444
+
+-l: Listen mode (wait for an incoming connection).
+-v: Verbose output (provides connection details).
+-p 4444: Specifies the local port to listen on.
+(Screenshot showing Kali Linux listening on port 4444 and receiving the connection)
+<img width="1920" height="922" alt="VirtualBox_kali linux_13_07_2026_15_49_43" src="https://github.com/user-attachments/assets/fb3330e9-f59d-4655-8c21-dc1086f0dc42" />
