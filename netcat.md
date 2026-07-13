@@ -21,7 +21,7 @@ Similarly, on the Fedora live environment, we run the `ifconfig` command to iden
 *   **IP Address:** `192.168.1.9`
 
 *(Screenshot showing the ifconfig output on Fedora)*
-![Fedora IP Configuration](1000111128.jpg)
+ <img width="1920" height="922" alt="VirtualBox_Fedora_13_07_2026_15_46_49" src="https://github.com/user-attachments/assets/aee49ea3-7248-4193-a4fd-118b82811edd" />
 
 ---
 
