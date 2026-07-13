@@ -44,3 +44,5 @@ nc -lvp 4444
 
 . Connecting the Client (Fedora)
 On the Fedora machine, we use Netcat to initiate a connection to Kali's IP address (192.168.1.4) on the specified port (4444).
+(Screenshot showing Fedora connecting to the Kali Linux listener)
+<img width="1920" height="922" alt="VirtualBox_Fedora_13_07_2026_15_50_05" src="https://github.com/user-attachments/assets/643a040c-3863-4150-805a-a72716f032ff" />
