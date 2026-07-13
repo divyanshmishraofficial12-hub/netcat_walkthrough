@@ -41,3 +41,6 @@ nc -lvp 4444
 -p 4444: Specifies the local port to listen on.
 (Screenshot showing Kali Linux listening on port 4444 and receiving the connection)
 <img width="1920" height="922" alt="VirtualBox_kali linux_13_07_2026_15_49_43" src="https://github.com/user-attachments/assets/fb3330e9-f59d-4655-8c21-dc1086f0dc42" />
+
+. Connecting the Client (Fedora)
+On the Fedora machine, we use Netcat to initiate a connection to Kali's IP address (192.168.1.4) on the specified port (4444).
