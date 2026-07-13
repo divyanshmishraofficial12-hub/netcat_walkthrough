@@ -14,7 +14,8 @@ On the Kali Linux machine, we open a terminal and run the `ifconfig` command to 
 *   **IP Address:** `192.168.1.4`
 
 *(Screenshot showing the ifconfig output on Kali Linux)*
- 
+ <img width="1920" height="922" alt="VirtualBox_kali linux_13_07_2026_15_45_32" src="https://github.com/user-attachments/assets/7bb24b4c-a3c2-4b92-8966-b5fdda308f40" />
+
 ### 2. Fedora (Client) Network Configuration
 Similarly, on the Fedora live environment, we run the `ifconfig` command to identify its IP address on the `enp0s3` interface.
 *   **IP Address:** `192.168.1.9`
