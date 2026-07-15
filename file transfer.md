@@ -29,7 +29,8 @@ To ensure our incoming and outgoing Netcat connections are not blocked, we disab
 Back on Kali Linux, we use `arp-scan -l` to broadcast ARP requests and verify that the Windows machine (`192.168.1.11`) is visible and reachable on the local subnet.
 
 *(Screenshot showing the arp-scan execution and host discovery)*
-![ARP Scan Discovery](IMG-20260715-WA0003.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_19_28" src="https://github.com/user-attachments/assets/01ca94f5-f91f-4bf0-9cc7-f1b51178480a" />
+
 
 ---
 
