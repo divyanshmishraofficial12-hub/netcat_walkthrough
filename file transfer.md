@@ -23,7 +23,7 @@ To ensure our incoming and outgoing Netcat connections are not blocked, we disab
 *   **IP Address:** `192.168.1.11`
 
 *(Screenshot showing the Windows firewall being disabled and the ipconfig output)*
-![Windows Firewall and IP Configuration](IMG-20260715-WA0001.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_14_20_48" src="https://github.com/user-attachments/assets/44120724-ccad-4c50-8c52-af0e8a6b5a82" />
 
 ### 3. Host Discovery Verification
 Back on Kali Linux, we use `arp-scan -l` to broadcast ARP requests and verify that the Windows machine (`192.168.1.11`) is visible and reachable on the local subnet.
