@@ -68,7 +68,7 @@ On Kali Linux, we instruct Netcat to listen on port `4455` and redirect the cont
     *   **`< prac.txt`**: Redirect the file's contents into the outbound stream.
 
 *(Screenshot showing Kali Linux listening on port 4455 and pushing the file)*
-![Kali Linux Netcat Listener](IMG-20260715-WA0004.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_46_50" src="https://github.com/user-attachments/assets/721d3a5f-cd09-4157-be99-d1dc90cecfb7" />
 
 ### 3. Connecting and Receiving Data (Windows)
 On the Windows machine, we use `nc.exe` to connect to the Kali listener.
