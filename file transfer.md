@@ -43,7 +43,8 @@ On Kali Linux, we use a text editor (`nano`) to create a simple text file named 
 *   **Contents:** "this is for connection"
 
 *(Screenshot showing the creation and verification of the prac.txt file)*
-![File Creation on Kali](IMG-20260715-WA0002.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_28_29" src="https://github.com/user-attachments/assets/c0153a45-a2ca-45bf-aaac-091243ae979c" />
+
 
 ---
 
