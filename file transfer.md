@@ -77,4 +77,4 @@ On the Windows machine, we use `nc.exe` to connect to the Kali listener.
 As soon as the connection is established, Kali Linux pushes the contents of `prac.txt` over the socket. The text "this is for connection" successfully appears in the Windows command prompt, verifying the cross-platform data transfer.
 
 *(Screenshot showing Windows connecting to Kali and receiving the text payload)*
-![Windows Netcat Client Connection](IMG-20260715-WA0006.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_14_46_36" src="https://github.com/user-attachments/assets/79919420-e3c7-4ba7-9857-c5771aadcd37" />
