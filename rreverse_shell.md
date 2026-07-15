@@ -54,7 +54,7 @@ On the Windows machine, we navigate to the directory containing the Netcat execu
 Once executed, the Windows terminal will appear to "hang" with a blank blinking cursor. This indicates that the Netcat process is actively running and maintaining the connection in the foreground.
 
 *(Screenshot showing the active, hanging Windows command prompt)*
-![Windows CMD Hanging](IMG-20260715-WA0008.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_16_44_40" src="https://github.com/user-attachments/assets/18feb08c-861d-4463-80be-9c25461c0672" />
 
 ---
 
