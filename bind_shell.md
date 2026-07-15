@@ -21,7 +21,8 @@ On the Windows target, we simulate a vulnerable environment by explicitly disabl
 * **IP Address:** `192.168.1.11`
 
 *(Screenshot showing the Windows firewall being disabled and the ipconfig output)*
-![Windows Firewall and IP Configuration](IMG-20260715-WA0001.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_17_22_55" src="https://github.com/user-attachments/assets/8afc329a-7932-4a5d-9db6-b4e33f2d9b2a" />
+)
 
 ### 3. Host Discovery Verification
 Back on the Kali Linux machine, we use `arp-scan -l` to broadcast ARP requests across the local subnet. This confirms that the Windows machine (`192.168.1.11`) is successfully identified and reachable over the network.
