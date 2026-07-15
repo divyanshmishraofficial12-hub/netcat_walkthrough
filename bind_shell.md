@@ -77,4 +77,4 @@ As soon as the connection is established, the target's `cmd.exe` is piped direct
 Executing standard Windows commands (like `dir` or `whoami`) from the Kali terminal confirms we have stable, interactive remote command-line access to the target system.
 
 *(Screenshot showing successful bind shell access and command execution on Kali Linux)*
-![Bind Shell Access on Kali](IMG-20260715-WA0016.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_17_26_40" src="https://github.com/user-attachments/assets/bcd2ade4-08a9-4b39-86d1-0c937a55eefe" />
