@@ -49,7 +49,7 @@ On the Windows machine, we navigate to the directory containing the Netcat execu
     *   **`-e cmd.exe`**: This critical flag tells Netcat to execute the `cmd.exe` program after connecting and to redirect its standard input, output, and error streams over the TCP connection.
 
 *(Screenshot showing the execution of the reverse shell payload on Windows)*
-![Windows Netcat Reverse Shell Execution](IMG-20260715-WA0010.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_16_43_08" src="https://github.com/user-attachments/assets/f2c2bc10-92a8-435f-9cd4-32c60fdb4d5e" />
 
 Once executed, the Windows terminal will appear to "hang" with a blank blinking cursor. This indicates that the Netcat process is actively running and maintaining the connection in the foreground.
 
