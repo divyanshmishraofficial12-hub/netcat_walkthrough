@@ -41,7 +41,7 @@ On Kali Linux, we start Netcat in listening mode on port `4455`. This port will 
 *   **Command:** `nc -lvp 4455`
 
 *(Screenshot showing Kali Linux listening on port 4455)*
-![Kali Linux Netcat Listener](IMG-20260715-WA0009.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_16_43_20" src="https://github.com/user-attachments/assets/61ef9aa8-8c86-4e2d-9c0d-9dd0c98182b4" />
 
 ### 2. Executing the Reverse Shell (Windows)
 On the Windows machine, we navigate to the directory containing the Netcat executable (`nc.exe`). We execute a command that connects back to the Kali IP and pipes the Windows command prompt (`cmd.exe`) over the network socket.
