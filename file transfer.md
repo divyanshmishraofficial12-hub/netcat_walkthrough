@@ -14,7 +14,8 @@ On the Kali Linux machine, we open a terminal and run the `ifconfig` command to 
 *   **IP Address:** `192.168.1.4`
 
 *(Screenshot showing the ifconfig output on Kali Linux)*
-![Kali Linux IP Configuration](IMG-20260715-WA0000.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_20_17" src="https://github.com/user-attachments/assets/ed618e94-d7c5-415e-80fd-03f88c940747" />
+
 
 ### 2. Windows (Client) Firewall & IP Configuration
 To ensure our incoming and outgoing Netcat connections are not blocked, we disable the Windows firewall for all profiles using an elevated command prompt. Then, we run `ipconfig` to identify the Windows machine's IP address.
