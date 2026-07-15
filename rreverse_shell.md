@@ -68,4 +68,4 @@ The Kali listener catches the incoming connection from `192.168.1.11`. Immediate
 Executing a standard `dir` command from the Kali terminal lists the directory contents of the Windows machine, confirming we now have full, interactive remote command-line access to the target system.
 
 *(Screenshot showing successful reverse shell access and command execution on Kali Linux)*
-![Reverse Shell Access on Kali](IMG-20260715-WA0007.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_16_44_25" src="https://github.com/user-attachments/assets/7be6adbc-b9ef-4495-bc6e-c694b36a36da" />
