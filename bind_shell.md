@@ -40,7 +40,8 @@ With the network mapped, we must configure the target machine to open a port and
 On the Windows machine, we navigate to the directory containing the Netcat executable (`nc.exe`). We run a standard `dir` command to confirm the tool is present and ready for execution.
 
 *(Screenshot showing the Windows Netcat directory)*
-![Windows Netcat Directory](IMG-20260715-WA0012.jpg)
+<img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_17_24_47" src="https://github.com/user-attachments/assets/0a6c83cf-1954-444e-947c-b071c080b0e3" />
+
 
 ### 2. Executing the Bind Shell Listener
 We execute the following command to tell Netcat to listen on a specific port and execute the command prompt upon connection:
