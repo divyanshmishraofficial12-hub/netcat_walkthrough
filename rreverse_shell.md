@@ -27,7 +27,8 @@ On the Windows target, we simulate a vulnerable environment by explicitly disabl
 Back on the Kali Linux machine, we use `arp-scan -l` to broadcast ARP requests across the local subnet. This confirms that the Windows machine (`192.168.1.11`) is successfully identified and reachable.
 
 *(Screenshot showing the arp-scan execution and host discovery)*
-![ARP Scan Discovery](IMG-20260715-WA0001_2.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_19_28" src="https://github.com/user-attachments/assets/cf411ac2-c19e-4d5d-b1f2-7b8ac2ba59fb" />
+
 
 ---
 
