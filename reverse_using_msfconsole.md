@@ -22,7 +22,7 @@ On the Windows machine, we disable the firewall (`netsh advfirewall set allprofi
 * **IP Address:** `192.168.1.11`
 
 *(Screenshot showing the Windows firewall disabled and ipconfig output)*
-![Windows Firewall and IP](IMG-20260715-WA0001.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_17_22_55" src="https://github.com/user-attachments/assets/e27cba3e-1651-49f8-a483-f8363bdec2d1" />
 
 ### 3. Windows Netcat Directory
 We navigate to the directory on the Windows machine containing the `nc.exe` binary.
