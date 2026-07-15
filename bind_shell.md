@@ -39,10 +39,6 @@ With the network mapped, we must configure the target machine to open a port and
 ### 1. Preparing the Windows Target
 On the Windows machine, we navigate to the directory containing the Netcat executable (`nc.exe`). We run a standard `dir` command to confirm the tool is present and ready for execution.
 
-*(Screenshot showing the Windows Netcat directory)*
-<img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_17_24_47" src="https://github.com/user-attachments/assets/0a6c83cf-1954-444e-947c-b071c080b0e3" />
-
-
 ### 2. Executing the Bind Shell Listener
 We execute the following command to tell Netcat to listen on a specific port and execute the command prompt upon connection:
 * **Command:** `nc.exe -lvp 4455 -e cmd.exe`
@@ -52,12 +48,14 @@ We execute the following command to tell Netcat to listen on a specific port and
     * **`-e cmd.exe`**: Execute the `cmd.exe` program and pipe its input/output to the connecting client.
 
 *(Screenshot showing the execution of the bind shell command on Windows)*
-![Windows Netcat Bind Shell Execution](IMG-20260715-WA0013.jpg)
+ 
+<img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_17_24_47" src="https://github.com/user-attachments/assets/0a6c83cf-1954-444e-947c-b071c080b0e3" />
 
 Once executed, the Windows terminal will output `listening on [any] 4455 ...` and hang. This indicates that the port is successfully open and waiting for an incoming connection.
 
 *(Screenshot showing the active Windows listener waiting for a connection)*
-![Windows Listening on Port](IMG-20260715-WA0014.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_17_26_20" src="https://github.com/user-attachments/assets/4e8b0347-2253-4d1b-9a3d-fb8e315c296f" />
+![Uploading VirtualBox_windows 7_15_07_2026_17_26_20.png…]()
 
 ---
 
