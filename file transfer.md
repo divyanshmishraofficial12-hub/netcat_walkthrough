@@ -56,7 +56,8 @@ With the network configured and the file ready, we use Netcat to host the file o
 On the Windows machine, we navigate to the directory where the Windows version of Netcat (`nc.exe`) is located (e.g., `C:\Users\boss\Desktop\nc.exe-master`). We run the `dir` command to confirm the executable is present.
 
 *(Screenshot showing the Windows directory containing nc.exe)*
-![Windows Netcat Directory](IMG-20260715-WA0005.jpg)
+ <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_14_40_58" src="https://github.com/user-attachments/assets/34d84208-1bb1-45a6-9290-cc511629cece" />
+
 
 ### 2. Setting up the Listener (Kali Linux)
 On Kali Linux, we instruct Netcat to listen on port `4455` and redirect the contents of `prac.txt` into the connection.
