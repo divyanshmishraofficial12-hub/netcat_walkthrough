@@ -14,7 +14,7 @@ We begin on the Kali Linux machine by running `ifconfig` to identify its local I
 *   **IP Address:** `192.168.1.4`
 
 *(Screenshot showing the ifconfig output on Kali Linux)*
-![Kali Linux IP Configuration](IMG-20260715-WA0002_2.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_20_17" src="https://github.com/user-attachments/assets/88e83815-0a21-44e7-9477-5e737a76a621" />
 
 ### 2. Windows (Target) Firewall & IP Configuration
 On the Windows target, we simulate a vulnerable environment by explicitly disabling the firewall using an elevated command prompt (`netsh advfirewall set allprofiles state off`). We then run `ipconfig` to confirm the target's IP address.
