@@ -55,7 +55,7 @@ Once executed, the Windows terminal will output `listening on [any] 4455 ...` an
 
 *(Screenshot showing the active Windows listener waiting for a connection)*
  <img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_17_26_20" src="https://github.com/user-attachments/assets/4e8b0347-2253-4d1b-9a3d-fb8e315c296f" />
-![Uploading VirtualBox_windows 7_15_07_2026_17_26_20.png…]()
+ 
 
 ---
 
