@@ -68,7 +68,8 @@ On Kali Linux, we use Netcat as a client to connect to the Windows machine's IP 
 * **Command:** `nc -v 192.168.1.11 4455`
 
 *(Screenshot showing Kali Linux connecting to the Windows bind shell)*
-![Kali Netcat Client Connection](IMG-20260715-WA0015.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_17_26_06" src="https://github.com/user-attachments/assets/1666a894-c0c9-48c2-b849-9d17327bc32a" />
+
 
 ### 2. System Interaction
 As soon as the connection is established, the target's `cmd.exe` is piped directly to our Kali terminal. The Microsoft Windows banner and the `C:\Users\boss\Desktop\nc.exe-master>` prompt appear. 
