@@ -14,7 +14,8 @@ We run `ifconfig` on the Kali Linux machine to identify its local IP address on 
 * **IP Address:** `192.168.1.4`
 
 *(Screenshot showing the ifconfig output on Kali Linux)*
-![Kali IP Configuration](IMG-20260715-WA0000.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_20_17" src="https://github.com/user-attachments/assets/ae307455-4faf-422a-87cc-c74bace0eae5" />
+
 
 ### 2. Windows Firewall & IP Configuration
 On the Windows machine, we disable the firewall (`netsh advfirewall set allprofiles state off`) to ensure no traffic is blocked. We then run `ipconfig` to confirm its local IP address.
