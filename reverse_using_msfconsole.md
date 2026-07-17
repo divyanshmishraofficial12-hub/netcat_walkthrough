@@ -35,9 +35,10 @@ Here is the breakdown of the execution methodology:
 
 4️⃣ Setting Up the Listener: Shifting back to Metasploit (msfconsole), I initialized the exploit/multi/handler module. I matched the payload profile exactly to the generated executable, verified the configuration parameters using show options, and launched the exploit listener to await incoming connections.
 <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_09_33" src="https://github.com/user-attachments/assets/7e05247d-a351-4f48-9f38-fc1165b9cdcc" />
-<img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_11_32" src="https://github.com/user-attachments/assets/8ccd60bc-13db-4241-845c-67840a3ad05e" />
-<img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_11_32" src="https://github.com/user-attachments/assets/cedbf344-0a63-41d5-bc45-a2e5539e58c6" />
+<img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_10_59" src="https://github.com/user-attachments/assets/1a901b42-1333-4057-b80c-67ff3220e33b" />
 
+<img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_11_32" src="https://github.com/user-attachments/assets/8ccd60bc-13db-4241-845c-67840a3ad05e" />
+ 
 
 5️⃣ Execution & Session Establishment: Once the executable was triggered on the target client machine, the connection handler successfully caught the stage. A live reverse command shell session opened seamlessly, providing full command-line access to the host environment.
 
