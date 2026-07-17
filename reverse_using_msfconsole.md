@@ -31,6 +31,7 @@ Here is the breakdown of the execution methodology:
 
 3️⃣ Simulating the Delivery Vector: To mimic a realistic file delivery mechanism within the lab environment, I spun up a lightweight local web server using Python's http.server module on port 8000. This hosted the newly compiled executable for the target client.
 <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_03_22" src="https://github.com/user-attachments/assets/72af0bd3-4de8-4433-8b24-ec91d6a67076" />
+<img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_18_08_42" src="https://github.com/user-attachments/assets/0a3134a1-9907-4de5-a011-22d7ef38552e" />
 
 
 4️⃣ Setting Up the Listener: Shifting back to Metasploit (msfconsole), I initialized the exploit/multi/handler module. I matched the payload profile exactly to the generated executable, verified the configuration parameters using show options, and launched the exploit listener to await incoming connections.
