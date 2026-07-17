@@ -26,6 +26,9 @@ Here is the breakdown of the execution methodology:
 
 2️⃣ Payload Engineering with MSFVenom: Using msfvenom, I crafted a custom Windows executable payload (reverse.exe). I specified a reverse TCP shell payload architecture, mapping it precisely to my local listening IP (LHOST) and designated port (LPORT).
 
+<img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_02_08" src="https://github.com/user-attachments/assets/b8afef34-e035-4728-82c1-d65e9be3504c" />
+
+
 3️⃣ Simulating the Delivery Vector: To mimic a realistic file delivery mechanism within the lab environment, I spun up a lightweight local web server using Python's http.server module on port 8000. This hosted the newly compiled executable for the target client.
 
 4️⃣ Setting Up the Listener: Shifting back to Metasploit (msfconsole), I initialized the exploit/multi/handler module. I matched the payload profile exactly to the generated executable, verified the configuration parameters using show options, and launched the exploit listener to await incoming connections.
