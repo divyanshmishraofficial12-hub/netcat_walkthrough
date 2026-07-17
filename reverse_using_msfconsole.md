@@ -43,6 +43,8 @@ Here is the breakdown of the execution methodology:
 
 5️⃣ Execution & Session Establishment: Once the executable was triggered on the target client machine, the connection handler successfully caught the stage. A live reverse command shell session opened seamlessly, providing full command-line access to the host environment
 <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_12_55" src="https://github.com/user-attachments/assets/2a4f841a-0be9-4f52-a286-a5bd2b3055dd" />
+<img width="1280" height="720" alt="VirtualBox_windows 7_15_07_2026_18_12_31" src="https://github.com/user-attachments/assets/ad7292cb-006c-4140-aa2f-c609587a5209" />
+
 .
 
 Consistently practicing these steps reinforces how critical exact payload matching and port management are during live testing environments.
