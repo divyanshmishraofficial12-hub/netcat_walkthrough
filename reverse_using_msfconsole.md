@@ -40,7 +40,9 @@ Here is the breakdown of the execution methodology:
 <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_11_32" src="https://github.com/user-attachments/assets/8ccd60bc-13db-4241-845c-67840a3ad05e" />
  
 
-5️⃣ Execution & Session Establishment: Once the executable was triggered on the target client machine, the connection handler successfully caught the stage. A live reverse command shell session opened seamlessly, providing full command-line access to the host environment.
+5️⃣ Execution & Session Establishment: Once the executable was triggered on the target client machine, the connection handler successfully caught the stage. A live reverse command shell session opened seamlessly, providing full command-line access to the host environment
+<img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_18_12_55" src="https://github.com/user-attachments/assets/2a4f841a-0be9-4f52-a286-a5bd2b3055dd" />
+.
 
 Consistently practicing these steps reinforces how critical exact payload matching and port management are during live testing environments.
 To the cybersecurity professionals in my network: What are your preferred lightweight methods for staging and testing local payload delivery in your home labs?
