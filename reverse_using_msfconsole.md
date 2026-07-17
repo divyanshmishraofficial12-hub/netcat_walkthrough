@@ -19,6 +19,8 @@ This weekend, I walked through a complete lab scenario focusing on custom execut
 Here is the breakdown of the execution methodology:
 
 1️⃣ Target Identification & Subnet Mapping: I began by mapping my local subnet utilizing ifconfig and arp-scan to confirm the network architecture and identify the active target host.
+<img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_19_28" src="https://github.com/user-attachments/assets/9397bf53-d316-436e-8a65-47764d5f609a" />
+
 <img width="1920" height="922" alt="VirtualBox_kali linux_15_07_2026_14_20_17" src="https://github.com/user-attachments/assets/ab37f2d2-587e-42b3-af51-fcc119ff6fd2" />
 
 
